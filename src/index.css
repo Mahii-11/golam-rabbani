@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #05162e;
+  --color-navy-dark: #030f1f;
+  --color-gold: #c9a962;
+  --color-gold-light: #d4b978;
+  --color-cream: #f5f6f8;
+  --font-sans: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

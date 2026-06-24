@@ -1,16 +1,14 @@
-import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import StatsBanner from '../components/StatsBanner'
 import ResearchSection from '../components/ResearchSection'
 import LeadershipSection from '../components/LeadershipSection'
 import AILabSection from '../components/AILabSection'
 import EventCard from '../components/EventCard'
-import FooterQuote from '../components/FooterQuote'
+
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-cream font-sans text-navy antialiased">
-      <Navbar />
       <HeroSection />
       <StatsBanner />
 
@@ -22,8 +20,6 @@ export default function Home() {
           <EventCard />
         </div>
       </section>
-
-      <FooterQuote />
     </div>
   )
 }
